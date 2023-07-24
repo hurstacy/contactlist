@@ -1,8 +1,8 @@
-import SelectedContact from "./SelectedContact";
 
 export default function ContactRow({ setSelectedContactId, contact }) {
     return (
       <tr
+      className="row-style" // Apply the CSS class to the row
         onClick={() => {
           setSelectedContactId(contact.id);
         }}
@@ -13,3 +13,4 @@ export default function ContactRow({ setSelectedContactId, contact }) {
       </tr>
     );
   }
+  
