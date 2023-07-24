@@ -9,28 +9,49 @@
 
 /* ContactRow.css */
 .row-style {
-  border: 1px solid #000;
   background: #000;
+  color: #fff;
+  cursor: pointer;
+
+  
+}
+
+.row-style:hover {
+  border: 4px solid #653434;
+  background: #843434;
   color: #fff;
   cursor: pointer;
   
 }
 
-.heading-style {
-  border: 1px solid #000;
+.name-style {
+  border: 8px solid #562e2e;
   background: #000;
   color: #fff;
 }
 
-.headings-style {
-  border: 1px solid #000;
+.phone-style {
+  border: 8px solid #562e2e;
+  background: #000;
+  color: #fff;
+}
+
+.email-style {
+  border: 8px solid #562e2e;
+  background: #000;
+  color: #fff;
+}
+
+
+.heading-style {
+  border: 8px solid #9c6161;
   background: #000;
   color: #fff;
 }
 
 
 .selected-heading {
-  border: 1px solid #000;
+  border: 8px solid #a54e4e;
   background: #000;
   color: #fff;
 }
@@ -82,12 +103,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #aab5ba;
+  background-color: #256482;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #7a2c3b;
 }
 button:focus,
 button:focus-visible {
